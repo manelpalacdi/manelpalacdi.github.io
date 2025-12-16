@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff4f0;
+}
+
+nav {
+    background: #250a01;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: #fff4f0;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.active {
+    color: #f74213;   
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #d1ccac;
+}
+.hero-text {
+    color: #250a01;
+    justify-items: center;
+}
+
+section {
+    padding: 20px 20px;
+    height: fit-content;
+}
+/* About me */
+.features {
+  display: flex;
+  align-items: center;
+  gap: 40px; /* space between left and right */
+  padding: 50px;
+}
+
+.left {
+  flex: 1; /* left column takes half */
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* space between stacked boxes */
+}
+
+.feature-box {
+  background-color: #d1ccac;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.right {
+  flex: 1; /* right column takes half */
+}
+
+.right img {
+  width: auto;
+  height: 525px;
+  border-radius: 12px;
+}
+
+/**/
+footer {
+    color: #fff4f0;
+    background-color:#f74213;
+    padding: 15px;
+    font-weight: bold;
+}
+
+
+.image-scroll {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px;
+    scroll-snap-type: x mandatory;
+}
+
+.image-scroll img {
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
+  background-color: #000; /* or transparent */
+}
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column; /* stack vertically on small screens */
+    text-align: center;
+  }
+
+  .about-image img {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}

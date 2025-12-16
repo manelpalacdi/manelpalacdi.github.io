@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about_me.html">About me</a>
+        <a href="game_porfolio.html" class="active">Game Porfolio</a>
+    </nav>
+    <!-- ===== MEMOCUBE ===== -->
+    <section class="game-project">
+        <h1>Memocube</h1>
+        <h3>Last update: September 2025</h3>
+        <p>Find your way through different paths, guess the correct pattern and reach your high-score! Earn memocoins with each game that you play. With these coins you can personalize your own cube to match your aesthetic! </p>
+        <video width="360" height="640" controls style="justify-self: center;">
+            <source src="videos/Memocube Trailer.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>This is the beta version <a href="https://manelpalacdi.itch.io/memocube">(itch.io)</a>, with a limited amount of content that will continue to grow in the future:
+           
+            <br><br><b>Credits:</b>
+            This game is solo-developed by Manel Palacín, including all the game assets, audio, and game mechanics. The project was built using UnityEngine6 and C#.
+        </p>
+        <div class="image-scroll">
+            <img src="images/img-scroll/2.jpg" alt="img 2">
+            <img src="images/img-scroll/3.jpg" alt="img 3">
+            <img src="images/img-scroll/4.jpg" alt="img 4">
+            <img src="images/img-scroll/5.jpg" alt="img 5">
+        </div>
+        <h3>Game features & mechanics</h3>
+        <ul>
+            <li>Skins (geometry and fragment shaders over a cube).</li>
+            <li>Currency system (memocoins).</li>
+            <li>Score system.</li>
+            <li>Randomly generated pattern each game round.</li>
+            <li>Purchase system in-game with the game's currency in the game shop.</li>
+            <li>JSON serialization to store persistent data across game loads and saves, such as memocoins, purchased skins, etc.</li>
+            <li>Previewing and equipping items in the locker.</li>
+            <li>State machine to drive game scene logic.</li>
+            <li>Custom animations using Unity's animation system and also using DOTween's external library</li>
+        </ul>
+        <p>
+            <b>What's coming next?</b>
+            New skins.
+            New fast-paced game mode "Frenzy".
+            Trail customization for deeper personalization.
+            Daily quests and rewards.
+            And more!
+        </p>
+    </section>
+    <!-- ===== SPACE IMPACT ===== -->
+    <section class="game-project">
+        <h1>Space Impact Reconstruction</h1>
+        <h3>Last update: October 2025</h3>
+        <p>This is a reconstructed version from scratch of the iconic Nokia phone retro game "Space Impact". This project was done entirely by code in C++, with the usage of Raylib's library to handle windows, input and rendering. This project is not for any kind of commercial purpose.</p>
+        <video width="640" height="360" controls style="justify-self: center;">
+            <source src="videos/Space Impact.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h3>Featured skills used in this project</h3>
+        <ul>
+            <li>C++ & Raylib</li>
+            <li>Memory managed with smart pointers.</li>
+            <li>Scene management.</li>
+            <li>Score system.</li>
+            <li>Audio system.</li>
+            <li>Enemies and projectile management with its respective collisions.</li>
+        </ul>
+    </section>
+    <!-- ===== MARIO WORLD ===== -->
+    <section class="game-project">
+        <h1>Mario World Reconstruction</h1>
+        <h3>Last update: October 2025</h3>
+        <p>This is a reconstructed version from scratch of the main platformer mechanics from the legendary "Super Mario World" SNES console game. This project was also done entirely by code in C++, with the usage of Raylib's library to handle windows, input and rendering. 
+            <br><br>The purpose of this game was to design a more complex collision system than Space Impact, where raycasting is involved to check directional collisions. 
+            This project is not for any kind of commercial purpose.</p>
+        <video width="640" height="360" controls style="justify-self: center;">
+            <source src="videos/Mario World Reconstruction.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h3>Featured skills used in this project</h3>
+        <ul>
+            <li>C++ & Raylib.</li>
+            <li>Raycasting, collision detection and one-way platforms.</li>
+            <li>Animations through sprite sheets and state machines for the characters and enemies.</li>
+            <li>Enemies and projectile management.</li>
+            <li>Parallax.</li>
+            <li>Memory managed with smart pointers.</li>
+            <li>Scene management.</li>
+        </ul>
+    </section>
+    <!-- ===== RIBBIT RIBBEAT ===== -->
+    <section class="game-project">
+        <h1>Ribbit, Ribbeat!</h1>
+        <h3>Last update: June 2025</h3>
+        <p>
+            It consists of a survival/roguelite-style game developed in Unity in which you are a frog that must gobble up as many insects as possible to avoid starving to death. The objective of the game is clear: survive and reach the highest possible level. This means keeping an eye on your hunger level and being careful not to catch a bomb. If the player gets three strikes or dies of hunger, it’s Game Over.
+        </p>
+        <p>
+            To see more details about the game and it's main mechanics, please go to the Gitlab repository for this project: <a href="https://gitlab.com/manelpalacdi/ribbit-ribbeat">Gitlab Link</a>
+        </p>
+        <div class="image-scroll">
+            <img src="images/ribbit ribbeat/1.png" alt="img 2">
+            <img src="images/ribbit ribbeat/2.png" alt="img 2">
+            <img src="images/ribbit ribbeat/3.png" alt="img 2">
+            <img src="images/ribbit ribbeat/4.png" alt="img 2">
+            <img src="images/ribbit ribbeat/5.png" alt="img 2">
+            <img src="images/ribbit ribbeat/6.png" alt="img 2">
+            <img src="images/ribbit ribbeat/7.png" alt="img 2">
+            <img src="images/ribbit ribbeat/8.png" alt="img 2">
+        </div>
+        <h3>Featured skills used in this project</h3>
+        <ul>
+            <li>C# & Unity.</li>
+            <li>Line renderer components.</li>
+            <li>Enemy spawning controlled by difficulty curve.</li>
+            <li>Scriptable objects.</li>
+        </ul>
+    </section>
+    <!-- ===== YOUR PLANT ===== -->
+    <section class="game-project">
+        <h1>Your Plant</h1>
+        <h3>Last update: June 2025</h3>
+        <p>
+            This project showcased a prototype of the plant & flower randomized growth algorithm which I used for the idea of creating a garden simulation game.
+            The idea behind it was that the trunk of the plant would grow and branch out using a set of parameters: maxHeight, maxBranches, nodeAngle...
+            Each branch would have edges divided by nodes, which store the world position and are used later in a line renderer component to render the plant's body.
+            Each node is generated from the previous one, simply offseting it by some angle and height; it also has a chance of creating a new whole branch from itself.
+            Finally, the flowers are generated generally at the tip of each branch, giving results as follows:
+        </p>
+        <div class="image-scroll">
+            <img src="images/your plant/1.png" alt="img 2">
+            <img src="images/your plant/2.png" alt="img 2">
+            <img src="images/your plant/3.png" alt="img 2">
+            <img src="images/your plant/4.png" alt="img 2">
+            <img src="images/your plant/5.png" alt="img 2">
+            <img src="images/your plant/6.png" alt="img 2">
+            <img src="images/your plant/7.png" alt="img 2">
+        </div>
+        <p>
+            This game prototype has a detailed game design document (GDD) that can be downloaded here:
+        </p>
+        <a href="files/your_plant_GDD.pdf" target="_blank" download>
+            Your_Plant_GDD (PDF)
+        </a>
+        <h3>Featured skills used in this project</h3>
+        <ul>
+            <li>C# & Unity.</li>
+            <li>Tree data structures.</li>
+            <li>Line rendering.</li>
+            <li>Quaternions.</li>
+            <li>Shaders.</li>
+        </ul>
+    </section>
+    <!-- ===== Flocking & AI derived ===== -->
+    <section class="game-project">
+        <h1>AI for games</h1>
+        <h3>Last update: November 2025</h3>
+        <p>
+            This section is a set of exercises done showcasing AI techniques and steering behaviors used in a lot of videogames. As these were developed in Unity, the use of NavMesh to drive agents and walkable surfaces is well throughout all of these exercises.
+            Aside from standard C# programming, this project also included the use of the Visual Scripting and Behavior Tree modules from Unity.
+        </p>
+        <ol>
+            <li><b>Wandering:</b></li>
+            <p>This part shows a purple agent wandering through a set of random destination points. Once the destination is reached, the next destination is set after waiting a random amount of time.</p>
+            <video width="640" height="360" controls style="justify-self: center;">
+                <source src="videos/Activity_2-Wandering.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <li><b>Patrolling:</b></li>
+            <p>
+                This part shows an agent patrolling through a set of fixed destination points. Once the destination is reached, the next destination is set after waiting a random amount of time.
+                Also a video of the same behavior but instead of an individual, a group consisting of a leader and its followers follow these destinations.
+            </p>
+            <video width="640" height="360" controls style="justify-self: center;">
+                <source src="videos/Activity_3-Patrol.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video width="640" height="360" controls style="justify-self: center;">
+                <source src="videos/Activity1-Security_patrol_group.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <li><b>Fleeing & Detection:</b></li>
+            <p>
+                This part shows a blue agent patrolling through a set of fixed destination points, however, if it sees a purple enemy, it flees in the opposite direction, and faster.
+                If the agent gets out of its range, it goes to patrolling again.
+            </p>
+            <video width="640" height="360" controls style="justify-self: center;">
+                <source src="videos/Activity_3-Flee.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <li><b>Flocking:</b></li>
+            <p>
+                This section shows a typical flocking algorithm, resembling a hive of insects of some sort, that act as an obstacle for the agents.
+            </p>
+            <video width="640" height="360" controls style="justify-self: center;">
+                <source src="videos/Activity2-Insect_Hive_Flocking.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <li><b>Flocking leader / Detection / Chasing:</b></li>
+            <p>
+                This section shows the previous flock chasing a group of agents if they enter certain area around the hive. The flock follows its leader (red sphere), which chases the first agent that is inside the area.
+                If the agents leave the hive range, the flock defaults again to normal flocking behavior.
+            </p>
+            <video width="640" height="360" controls style="justify-self: center;">
+                <source src="videos/Activity3-Flock_leader.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </ol>
+        <h3>Featured skills used in this project</h3>
+        <ul>
+            <li>C# & Unity.</li>
+            <li>State machines.</li>
+            <li>NavMesh Surface/Agents/Obstacles.</li>
+            <li>Behavior Graph.</li>
+            <li>Steering Behaviors.</li>
+            <li>Flocking.</li>
+            <li>Visual Scripting.</li>
+        </ul>
+    </section>
+</body>
+</html>
